@@ -1,0 +1,6 @@
+---
+# handlers file for jenkins
+- name: install_jenkins
+  apt:
+   name: jenkins
+   state: present
